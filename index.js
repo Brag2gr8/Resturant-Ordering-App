@@ -1,4 +1,4 @@
-import {menuArray} from "/data";
+import {menuArray} from "/data.js";
 let list = [];
 
 document.addEventListener("click", (e) => {
