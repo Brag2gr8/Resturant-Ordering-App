@@ -4,6 +4,7 @@ html{
 
 body {
     width: 600px;
+    height: 100%;
     margin: 0 auto;
     font-family: 'Smythe', cursive;
 } 
@@ -69,6 +70,10 @@ p {
     padding: none;
 }
 
+.add-btn:hover{
+    color: green;
+}
+
 /* Order */
 
 .order{
@@ -114,6 +119,10 @@ p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 200;
+}
+
+.remove:hover {
+    color: red;
 }
 
 .total {
@@ -185,12 +194,13 @@ input{
 }
 
 .appreciation-text {
-    margin: 0 auto;
+    text-align: center;
+    margin: 5px auto;
     width: 379px;
     background: #ECFDF5;
     border-radius: 3px;
     font-size: 32px;
-    line-height: 17px;
+    /* line-height: 17px; */
     color: #065F46;
     padding: 51px 66px 52px 59px;
 }
