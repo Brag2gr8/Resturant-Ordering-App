@@ -1,0 +1,202 @@
+html{
+    background: #F5F5F5;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Smythe', cursive;
+} 
+
+/* Layout */
+
+main, header{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.section {
+    display: flex;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 0 46px 45px;
+    padding: 5px 0 50px 
+}
+
+
+/* Typography */
+h3 {
+    font-size: 28px;
+    margin: 0 0 8.8px 0 ;
+}
+
+small {
+    color: #8B8B8B;
+    font-size: 16px;
+}
+
+p { 
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.header-img {
+    width: 600px;
+    margin-bottom: 67px;
+}
+
+/* Menu */
+
+.item {
+    font-size: 78.72px;
+}
+
+.item-details {
+    margin: 0 205px 0 31px;
+    width: 152px
+}
+
+.add-btn {
+    cursor: pointer;
+    background: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #D2D2D2;
+    padding: none;
+}
+
+/* Order */
+
+.order{
+    padding: 0 45px 30px 45px;
+}
+.order-title{
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.order-name {
+    display: flex;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between
+}
+
+.order-price {
+    text-align: end;
+}
+
+.order-btn {
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    width: 100%;
+    height: 60px;
+    background: #16DB99;
+    border: none;
+    border-radius: 3px;
+}
+
+.remove {
+    cursor: pointer;
+    margin-left:10px;
+    margin-top: 12px;
+    font-size: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    border-top: 2px solid #393333;
+}
+
+/* Payment */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment {
+    padding: 47.32px 24.87px 29.85px 23.22px;
+    background: white;
+    text-align: center;
+    position: absolute;
+    width: 524px;
+    height: 480.24px;
+    right: 0;
+    left: 0;
+    top: 292px;;
+    bottom: 0;
+    margin: auto;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+}
+
+.payment-title {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 110.93px 30.70px 108.7px;
+}
+    
+input{
+    margin-bottom: 23.22px;
+    width: 475.91px;
+    height: 71.3px;
+    padding-left: 26.53px;
+}
+
+::placeholder {
+    font-family: 'Verdana';
+    font-size: 20px;
+}
+
+.payment-btn {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    width: 506px;
+    height: 71.3px;
+    background: #16DB99;
+    border-radius: 3.88991px;
+    border: none;
+    margin: 23.21px 24.87px 29.85px 0;
+}
+
+
+/* Processing */
+.processing{
+    color: #065F46;
+    font-family: 'Verdana';
+    margin-top: 0;
+}
+
+.appreciation-text {
+    margin: 0 auto;
+    width: 379px;
+    background: #ECFDF5;
+    border-radius: 3px;
+    font-size: 32px;
+    line-height: 17px;
+    color: #065F46;
+    padding: 51px 66px 52px 59px;
+}
+
+/* Utility */
+
+.hide {
+    display: none;
+}
