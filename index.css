@@ -143,10 +143,8 @@ form {
     height: 480.24px;
     right: 0;
     left: 0;
-    top: 292px;;
+    top: 292px;
     bottom: 0;
-    margin: auto;
-    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
 }
 
 .payment-title {
