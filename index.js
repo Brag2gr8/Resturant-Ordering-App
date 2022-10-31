@@ -20,7 +20,6 @@ function handleAdd(menuId) {
         return item.id === menuId
     })[0]
     list.push(addedObj);
-    document.getElementById("thanks").classList.handleAdd("hide");
     render();
     
 }
@@ -85,10 +84,10 @@ function render() {
         total+= item.price
     }
     
-    if(list.length === 0) {
-        document.getElementById("list").classList.add('hide')
-    } else {
+    if(list.length > 0) {
         document.getElementById("list").classList.remove('hide')
+    } else {
+        document.getElementById("list").classList.add('hide')
     }
    
    document.getElementById('root').innerHTML = feed;
