@@ -145,6 +145,8 @@ form {
     left: 0;
     top: 292px;
     bottom: 0;
+    margin: auto;
+    
 }
 
 .payment-title {
