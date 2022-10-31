@@ -10,7 +10,6 @@ body {
 } 
 
 /* Layout */
-
 main, header{
     width: 600px;
     margin: 0 auto;
@@ -22,7 +21,6 @@ main, header{
     margin: 0 46px 45px;
     padding: 5px 0 50px 
 }
-
 
 /* Typography */
 h3 {
@@ -46,7 +44,6 @@ p {
 }
 
 /* Menu */
-
 .item {
     font-size: 78.72px;
 }
@@ -75,7 +72,6 @@ p {
 }
 
 /* Order */
-
 .order{
     padding: 0 45px 30px 45px;
 }
@@ -185,7 +181,6 @@ input{
     margin: 23.21px 24.87px 29.85px 0;
 }
 
-
 /* Processing */
 .processing{
     color: #065F46;
@@ -200,7 +195,6 @@ input{
     background: #ECFDF5;
     border-radius: 3px;
     font-size: 32px;
-    /* line-height: 17px; */
     color: #065F46;
     padding: 51px 66px 52px 59px;
 }
