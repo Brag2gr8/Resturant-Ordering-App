@@ -10,6 +10,7 @@ body {
 } 
 
 /* Layout */
+
 main, header{
     width: 600px;
     margin: 0 auto;
@@ -21,6 +22,7 @@ main, header{
     margin: 0 46px 45px;
     padding: 5px 0 50px 
 }
+
 
 /* Typography */
 h3 {
@@ -44,6 +46,7 @@ p {
 }
 
 /* Menu */
+
 .item {
     font-size: 78.72px;
 }
@@ -67,11 +70,8 @@ p {
     padding: none;
 }
 
-.add-btn:hover{
-    color: green;
-}
-
 /* Order */
+
 .order{
     padding: 0 45px 30px 45px;
 }
@@ -117,10 +117,6 @@ p {
     font-weight: 200;
 }
 
-.remove:hover {
-    color: red;
-}
-
 .total {
     display: flex;
     justify-content: space-between;
@@ -143,10 +139,10 @@ form {
     height: 480.24px;
     right: 0;
     left: 0;
-    top: 292px;
+    top: 292px;;
     bottom: 0;
     margin: auto;
-    
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
 }
 
 .payment-title {
@@ -181,6 +177,7 @@ input{
     margin: 23.21px 24.87px 29.85px 0;
 }
 
+
 /* Processing */
 .processing{
     color: #065F46;
@@ -189,12 +186,12 @@ input{
 }
 
 .appreciation-text {
-    text-align: center;
-    margin: 5px auto;
+    margin: 0 auto;
     width: 379px;
     background: #ECFDF5;
     border-radius: 3px;
     font-size: 32px;
+    line-height: 17px;
     color: #065F46;
     padding: 51px 66px 52px 59px;
 }
